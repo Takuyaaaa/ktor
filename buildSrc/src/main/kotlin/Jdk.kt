@@ -16,4 +16,3 @@ val JDK7_MODULES = listOf(
     "ktor-network-tls",
     "ktor-websockets"
 )
-

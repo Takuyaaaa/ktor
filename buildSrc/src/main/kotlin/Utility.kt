@@ -9,7 +9,7 @@ import org.jetbrains.kotlin.konan.target.*
 /**
  * Check if the project is importing in IntelliJ.
  */
-val isIdeaActive: Boolean = System.getProperty("idea.active") == "true"
+val isIdeaActive: Boolean = false // System.getProperty("idea.active") == "true"
 
 private val hostManager = HostManager()
 

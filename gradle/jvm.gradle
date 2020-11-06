@@ -53,8 +53,8 @@ kotlin {
         }
 
         jvmTest.dependencies {
-            api 'org.jetbrains.kotlin:kotlin-test'
-            api 'org.jetbrains.kotlin:kotlin-test-junit'
+            api "org.jetbrains.kotlin:kotlin-test"
+            api "org.jetbrains.kotlin:kotlin-test-junit"
             api "junit:junit:$junit_version"
 
             api group: 'org.jetbrains.kotlin', name: 'kotlin-test-junit', version: kotlin_version
